@@ -1,7 +1,10 @@
 CC     = gcc
 CFLAGS = -Wall -O2
 DEF    = -D _MULTP_
-OBJ    = main.o input.o calcu.o
+OBJ    = main.o  \
+         input.o 
+
+OBJ   += calcu.o
 
 main: $(OBJ)
 	$(CC) -o $@ $(OBJ)

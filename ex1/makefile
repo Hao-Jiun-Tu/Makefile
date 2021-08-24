@@ -1,5 +1,7 @@
 CC  = gcc
-OBJ = main.o input.o calcu.o
+OBJ = main.o  \
+	  input.o \
+      calcu.o
 
 main: $(OBJ)
 	$(CC) -o main $(OBJ)
