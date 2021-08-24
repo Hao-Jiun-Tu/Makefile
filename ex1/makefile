@@ -1,6 +1,6 @@
 CC  = gcc
 OBJ = main.o  \
-	  input.o \
+      input.o \
       calcu.o
 
 main: $(OBJ)
