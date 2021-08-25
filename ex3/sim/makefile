@@ -9,7 +9,7 @@ DUMPFSDB = ON
 
 #------ Tools ------
 SIMTOOL = ncverilog
-DBYTOOL = verdii
+DBYTOOL = verdi
 
 #------ Modes -----
 ADD       = ON
