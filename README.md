@@ -1,2 +1,11 @@
 # Makefile
-Basic introduction to Makefile
+簡介makefile使用時機、好處以及一些常用基本語法。
+## `Makefile`使用時機
+Make是一個常用於自動化編譯的工具程式，經由讀取名為makefile的檔案，自動化輸入指令進行編譯。通常會使用於需要大量指令編程、環境設定的compiler或EDA tool。
+## `Makefile`使用好處
+1. 自動化輸入編譯指令。
+2. 已編譯過的程式碼若未經修改，不需重複編譯。
+3. 若專案的標頭檔改動，只需編譯標頭檔的程式碼，並連結目標程式。
+
+* **綜合以上，省時、提高開發效率。**
+## `Makefile`語法
